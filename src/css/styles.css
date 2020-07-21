@@ -20,15 +20,12 @@ html, body {
   font-size: 1.3rem;
   border-bottom: 1px solid #111;
 
-
-
   position: relative;
   }
   .header-nav > a > img {
     height: 100px;
     width: auto;
     position: absolute;
-
   }
 .header-nav > ul > li {
     display: inline-block;
