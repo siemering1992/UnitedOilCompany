@@ -4,59 +4,65 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  font-family: algerian;
+  font-family: "algerian";
 }
 *{
   box-sizing: border-box;
 }
 
 /* Navigationsleiste */
-.header-nav{
-  height: 100px;
-  width: 100%;
-  padding: 0px;
-  background-color: #333;
-  font-weight: bold;
-  font-size: 1.3rem;
-  border-bottom: 1px solid #111;
-
-  position: relative;
-  }
-  .header-nav > a > img {
+  .header-nav{
     height: 100px;
-    width: auto;
-    position: absolute;
-  }
-.header-nav > ul > li {
-    display: inline-block;
-    margin-left: 50px;
-}
-.header-nav > ul > li > a:link {
-  color: white;
-  text-decoration: none;
-}
-.header-nav > ul > li > a:visited  {
-  color: white;
-  text-decoration: none;
-}
-.header-nav > ul > li > a:hover {
+    width: 100%;
+    padding: 0px;
+    background-color: #333;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #111;
+    position: relative;
+    }
+  .header-nav > a > img {
+      height: 100px;
+      width: auto;
+      position: absolute;
+    }
+  .header-nav > ul > li {
+      display: inline-block;
+      margin-left: 50px;
+    }
+  .header-nav > ul > li > a:link {
+    color: white;
+    text-decoration:none;
+
+    }
+  .header-nav > ul > li > a:visited  {
+    color: white;
+    text-decoration:none;
+    }
+  .header-nav > ul > li > a:hover {
   color: Black;
-  text-decoration: none;
-}
-
-.header-nav > ul > li > a:active {
+  text-decoration:none;
+    }
+  .header-nav > ul > li > a:active {
   color: white;
   text-decoration: none;
-}
-
-
-.header-nav > ul {
+    }
+  .header-nav > ul {
   margin:0;
   padding:0;
   position: absolute;
   right: 20rem;
   top:2.2rem;
+    }
+  .active {
+    background-color: Red;
+  }
 
+/* Navigationsleiste */
+.header-banner {
+  background: repeat center center url("../img/yellowstarsmall.png");
+  width: full;
+  height: 500px;
 }
 /*
 .inline {
