@@ -58,12 +58,62 @@ html, body {
     background-color: Red;
   }
 
-/* Navigationsleiste */
-.header-banner {
-  background: repeat center center url("../img/yellowstarsmall.png");
-  width: full;
-  height: 500px;
+/* Header Banner*/
+.header-banner-index {
+  background: no-repeat  url("../img/YellowStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
 }
+.header-banner-player {
+  background: no-repeat  url("../img/BlueStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
+}
+.header-banner-news {
+  background: no-repeat  url("../img/YellowStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
+}
+.header-banner-superBaron {
+  background: no-repeat  url("../img/YellowStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
+}
+.header-banner-trading {
+  background: no-repeat  url("../img/YellowStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
+}
+.header-banner-whiteStar {
+  background: no-repeat  url("../img/WhiteStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
+}
+
+.header-banner-tutorial {
+  background: no-repeat  url("../img/YellowStarBanner.png");
+  width: 100%;
+  height: 0;
+  padding-top: 10.41%;
+  background-size:contain;
+}
+
+
+
+
+
 /*
 .inline {
   display: inline-block;
