@@ -21,36 +21,35 @@ html, body {
     border-bottom: 1px solid #111;
     position: relative;
     }
-  .header-nav > a > img {
+  .header-nav  a > img {
       height: 100px;
       width: auto;
-      position: absolute;
+      float: left;
     }
-  .header-nav > ul > li {
+  .header-nav  ul > li {
       display: inline-block;
       margin-left: 50px;
     }
-  .header-nav > ul > li > a:link {
+  .header-nav  ul > li > a:link {
     color: white;
     text-decoration:none;
 
     }
-  .header-nav > ul > li > a:visited  {
+  .header-nav  ul > li > a:visited  {
     color: white;
     text-decoration:none;
     }
-  .header-nav > ul > li > a:hover {
+  .header-nav  ul > li > a:hover {
   color: Black;
   text-decoration:none;
     }
-  .header-nav > ul > li > a:active {
+  .header-nav  ul > li > a:active {
   color: white;
   text-decoration: none;
     }
-  .header-nav > ul {
+  .header-nav  ul {
   margin:0;
   padding:0;
-  position: absolute;
   right: 20rem;
   top:2.2rem;
     }
@@ -109,8 +108,42 @@ html, body {
   padding-top: 10.41%;
   background-size:contain;
 }
+/* Grid System*/
+.container{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row::after{
+  content: "";
+  clear:both;
+  display: block;
+}
 
+[class*='col-']{
+  float: left;
+  min-height: 1px;
+  padding: 4rem;
+}
+.col-1 {width: 16.666%;}
+.col-2 {width: 33.333%;}
+.col-3 {width: 50%;    }
+.col-6 {width: 100%;   }
 
+@media (max-width: 1024px) {
+  .col-1 {width: 33.333%;}
+}
+@media (max-width: 768px) {
+  .col-1 {width: 50%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+
+}
+@media (max-width: 480px) {
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+}
 
 
 
