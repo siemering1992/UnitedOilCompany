@@ -11,51 +11,83 @@ html, body {
 }
 
 /* Navigationsleiste */
-  .header-nav{
-    height: 100px;
-    width: 100%;
-    padding: 0px;
-    background-color: #333;
-    font-weight: bold;
-    font-size: 1.3rem;
-    border-bottom: 1px solid #111;
-    position: relative;
-    }
-  .header-nav  a > img {
-      height: 100px;
-      width: auto;
-      float: left;
-    }
-  .header-nav  ul > li {
-      display: inline-block;
-      margin-left: 50px;
-    }
-  .header-nav  ul > li > a:link {
-    color: white;
-    text-decoration:none;
-
-    }
-  .header-nav  ul > li > a:visited  {
-    color: white;
-    text-decoration:none;
-    }
-  .header-nav  ul > li > a:hover {
+.header-nav{
+  height: 100px;
+  width: 100%;
+  padding: 0px;
+  background-color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #111;
+  position: relative;
+}
+.header-nav li>a  {
+  position: relative;
+}
+.header-nav  a > img {
+  height: 100px;
+  width: auto;
+  float: left;
+}
+.header-nav  ul > li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.header-nav  ul > li > a:link {
+  color: white;
+  text-decoration:none;
+}
+.header-nav  ul > li > a:visited  {
+  color: white;
+  text-decoration:none;
+}
+.header-nav  ul > li > a:hover {
   color: Black;
   text-decoration:none;
-    }
-  .header-nav  ul > li > a:active {
+}
+.header-nav  ul > li > a:active {
   color: white;
   text-decoration: none;
-    }
-  .header-nav  ul {
+}
+.header-nav  ul {
   margin:0;
   padding:0;
-  right: 20rem;
-  top:2.2rem;
-    }
-  .active {
-    background-color: Red;
-  }
+  float: right;
+}
+.active {
+  background-color: Red;
+}
+
+.header-nav .col-6{
+  padding:0;
+}
+
+/* Navigationleiste(Mobil) */
+.mobile-nav-button{
+  color: #fff;
+  float: right;
+  font-size: 2.5rem;
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-top: 1.5rem;
+
+}
+.mobile-nav-button> span {
+  position: absolute;
+  left: 6.5px;
+  bottom: -9.2px;
+
+}
+
+.mobile-nav-content ul > li {
+  display: block;
+  background-color: #333;
+  height: 50px;
+  padding: 0 1.2rem;
+
+}
 
 /* Header Banner*/
 .header-banner-index {
@@ -137,7 +169,6 @@ html, body {
   .col-1 {width: 50%;}
   .col-2 {width: 100%;}
   .col-3 {width: 100%;}
-
 }
 @media (max-width: 480px) {
   .col-1 {width: 100%;}
