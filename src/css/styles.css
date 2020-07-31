@@ -18,6 +18,9 @@ html, body {
   display: block;
   clear: both;
 }
+.screenreader{
+  display: none;
+}
 
 /* ==Navigationsleiste== */
 .header-nav{
@@ -186,6 +189,22 @@ html, body {
   padding-top: 10.41%;
   background-size:contain;
 }
+/* ==Newsletter-Bereich */
+
+.newsletter-bereich{
+  width: =100%;
+  background-color:#333;
+}
+.nb-email-input{
+  width: 250px;
+  height: 32px;
+  border: 2px solid #fff;
+  padding: .4rem .4rem;
+}
+#nb-werbetext{
+  color:#fff;
+  font-size:1.2rem;
+}
 /* Grid System*/
 .container{
   width: 95%;
@@ -206,6 +225,7 @@ html, body {
 .col-1 {width: 16.666%;}
 .col-2 {width: 33.333%;}
 .col-3 {width: 50%;    }
+.col-4 {width: 66.666%;}
 .col-6 {width: 100%;   }
 
 @media (max-width: 1024px) {
@@ -215,11 +235,13 @@ html, body {
   .col-1 {width: 50%;}
   .col-2 {width: 100%;}
   .col-3 {width: 100%;}
+  .col-4 {width: 100%;}
 }
 @media (max-width: 480px) {
   .col-1 {width: 100%;}
   .col-2 {width: 100%;}
   .col-3 {width: 100%;}
+  .col-4 {width: 100%;}
 }
 
 
