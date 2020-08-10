@@ -21,6 +21,14 @@ html, body {
 .screenreader{
   display: none;
 }
+.btn-typ-1{
+  /* color: #fff; */
+  font-size: 1.4rem;
+  border: 2px solid #fff;
+  background-color: #fff;
+  padding: 0.2rem 0.6rem;
+  font-family: inherit;
+}
 
 /* ==Navigationsleiste== */
 .header-nav{
@@ -139,6 +147,8 @@ html, body {
 }
 
 /* ==Header Banner==*/
+
+
 .header-banner-index {
   background: no-repeat  url("../img/YellowStarBanner.png");
   width: 100%;
@@ -189,22 +199,27 @@ html, body {
   padding-top: 10.41%;
   background-size:contain;
 }
-/* ==Newsletter-Bereich */
 
-.newsletter-bereich{
-  width: =100%;
+
+/* ==Newsletter-Bereich ==*/
+
+
+
+/* .newsletter-bereich{
+  width: = 100%;
   background-color:#333;
 }
 .nb-email-input{
   width: 250px;
-  height: 32px;
+  height: 38px;
   border: 2px solid #fff;
-  padding: .4rem .4rem;
+  padding: .4rem;
+  font-family: inherit;
 }
 #nb-werbetext{
   color:#fff;
   font-size:1.2rem;
-}
+} */
 /* Grid System*/
 .container{
   width: 95%;
